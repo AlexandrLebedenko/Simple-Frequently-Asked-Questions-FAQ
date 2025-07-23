@@ -1,0 +1,57 @@
+@import url(./reset.css);
+.wrapper {
+  min-height: 100vh;
+  min-width: 100%;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #030616;
+}
+.header {
+  background-color: #ffffff;
+  padding: 4.5rem;
+  text-align: center;
+}
+.title {
+  font-size: 2.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  margin: auto;
+}
+.subtitle {
+  margin: auto;
+}
+.questions-section {
+  min-height: calc(100vh - 13rem);
+  padding: 4.5rem 0;
+  background-color: #f8fafc;
+}
+.container {
+  max-width: 39.8125rem;
+  margin: auto;
+}
+.question-box:first-child:after {
+  content: "";
+  display: block;
+  min-width: 100%;
+  margin: 2.5rem auto;
+  border: 0.0625rem solid #d2d5da;
+}
+.question-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.question-list {
+  margin: 1.5rem 0;
+  margin-left: 1.625rem;
+}
+.question-list__item {
+  line-height: 2rem;
+}
+a {
+  color: #4e80ee;
+}
+span {
+  font-weight: bold;
+}
